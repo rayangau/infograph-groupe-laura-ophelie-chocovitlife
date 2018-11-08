@@ -1,27 +1,12 @@
 
-
-/***** starting of anj css***/
-body.html{
-  padding: 0;
-  margin: 0;
-
-}
-#{
-  text-decoration-style: none;
-}
-a.hover {
-  text-decoration: none;
-}
 body{
-
-  padding: 0;
-  margin: 0;
-  background-color: #FFFFFF;
+  width:100%;
 }
-
-
-
-/******end of anj css***/
+.cont{
+  width:50%;
+  margin-left:30%;
+  margin-right: 30%;
+}
 
 
 #menu >p{
@@ -37,6 +22,19 @@ body{
   width:15%;
 
 }
+.log{
+  position:relative;
+  left:10%;
+  width:10%;
+}
+.use, .shopp, .search, .rect{
+  position:relative;
+  left:24%;
+}
+.use, .shopp, .search{
+  width:7%;
+}
+
 #menu{
   width:100%;
 }
