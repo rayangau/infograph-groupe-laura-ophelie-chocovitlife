@@ -7,12 +7,13 @@ body{
   width:50%;
   margin-left:30%;
   margin-right: 30%;
+  border:1px solid black;
+ /* padding-top: 20%*/
 }
 
 
 #menu >p{
-
-  border:1px solid black;
+ border:1px solid black;
   display:inline-block;
 }
 .nav>div{
@@ -56,7 +57,7 @@ body{
   text-decoration: none;
    padding-top:5%;
 }
-a{
+.acc, .recet, .shop, .avis{
   display:inline-block;
   border:1px solid black;
   width:23%;
@@ -64,22 +65,26 @@ a{
   text-decoration: none;
  color: black;
 }
-choc{
-width:5%;
-height:5%;
+.choc{
+width:195%;
+position:relative;
+
+
 }
 .chocho, #para{
   display:inline-block;
 }
 #para{
-  width:44%;
-
+  width:52%;
+  font-size: 189%;
+  padding-left: 10%;
 
 }
 .prod{
   position:relative;
-  left:14%;
-  padding-top: 4%
+  left:16%;
+  padding-top: 4%;
+  width:62%;
 }
 .lactose, .gluten, .food{
   width:8%;
@@ -90,5 +95,37 @@ height:5%;
  .coeur{
   position: absolute;
   left:50%;
-top:72%;
+top:64%;
+}
+
+h1{
+  padding-left: 10%;
+
+font-size: 31px;
+}
+.footer{
+  width:50%;
+  padding-left: 30%
+}
+.prof{
+  padding-left:15%;
+  width:68%;
+}
+form{
+  width:15%;
+  height:15%;
+  position:relative;
+  left:10%;
+
+}
+@media screen and (max-width: 375px){
+  .acc, .recet, .shop, .avis{
+    width:100%;
+  }
+  footer{
+    display:none;
+  }
+  .coeur, .choc{
+    display:none;
+  }
 }
