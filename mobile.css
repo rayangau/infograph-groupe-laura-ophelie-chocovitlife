@@ -57,14 +57,16 @@ a{
   border:1px solid black;
   width:23%;
   text-align:center;
+ font-family:
 }
 choc{
 width:5%;
 height:5%;
 }
 #para{
-  width:10%;
-  height:10%;
+  width:44%;
+  font-family: Mission Script;
+
 }
 .prod{
   position:relative;
