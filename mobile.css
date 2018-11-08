@@ -18,36 +18,66 @@ body{
   display:inline-block;
 
 }
-#log{
-  width:15%;
-
+.life{
+  width:26%;
+   padding-bottom: 4%;
 }
+
 .log{
   position:relative;
   left:10%;
-  width:10%;
-}
-.use, .shopp, .search, .rect{
-  position:relative;
-  left:24%;
+  width:17%;
+
 }
 .use, .shopp, .search{
-  width:7%;
+  position:relative;
+  left:25%;
+  padding-bottom: 6%;
+
+}
+.rect{
+  width:5%;
+   height:1%;
+   position:absolute;
+   left:72%;
+  top:8%;
+}
+
+.use, .shopp, .search{
+  width:4%;
 }
 
 #menu{
   width:100%;
+
 }
-.acc, .shop, .recet, .avis
-{
+a{
+  display:inline-block;
+  border:1px solid black;
   width:23%;
   text-align:center;
 }
-.choc{
+choc{
 width:5%;
 height:5%;
 }
 #para{
   width:10%;
   height:10%;
+}
+.prod{
+  position:relative;
+  left:14%;
+  padding-top: 4%
+}
+.lactose, .gluten, .food{
+  width:8%;
+  position:relative;
+  left:34%;
+}
+
+ .coeur{
+  position: absolute;
+  left:49%;
+top:68%;
 }
