@@ -1,0 +1,62 @@
+
+
+
+body.html{
+    padding: 0;
+    margin: 0;
+
+}
+#{
+    text-decoration-style: none;
+}
+a.hover {
+    text-decoration: none;
+}
+body{
+ 
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+
+
+
+.form{
+  background-image: url("profile.png")
+}
+/****footer******/
+
+.footerp {
+  display:flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+
+  bottom: 0;
+  width: 100%;
+  background-color:#231F20;
+  color: #FFFFFF;
+
+  font-size: 24px;
+  text-align: right;
+ justify-content: space-around;
+}
+
+.footerp > div {
+  width: 20%;
+ 
+  text-align: left;
+  font-size: 12px;
+  padding-left: 
+}
+
+.main{
+  width: 30%;
+  text-align:left;
+  color: #fff;
+  font-size: 28px;
+  line-height: 20px;
+
+
+
+}
