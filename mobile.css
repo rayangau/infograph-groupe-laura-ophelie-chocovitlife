@@ -1,6 +1,7 @@
 
 body{
   width:100%;
+  font-family: Mission Script;
 }
 .cont{
   width:50%;
@@ -50,15 +51,18 @@ body{
 
 #menu{
   width:100%;
-
-
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+   padding-top:5%;
 }
 a{
   display:inline-block;
   border:1px solid black;
   width:23%;
   text-align:center;
- font-family:
+  text-decoration: none;
+ color: black;
 }
 choc{
 width:5%;
@@ -69,7 +73,7 @@ height:5%;
 }
 #para{
   width:44%;
-  font-family: Mission Script;
+
 
 }
 .prod{
