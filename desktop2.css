@@ -26,6 +26,9 @@ body{
      display:inline-block;
   
   }
+  #menu{
+      padding-left: 1%;
+  }
   
 a{
     display:inline-block;
@@ -43,7 +46,9 @@ a{
     width:100%;
 }  
 
+#logo{
 
+}
 
 
 .cont{
@@ -53,7 +58,7 @@ a{
 
 .A {
     display:inline-block; 
-    width:33%;
+    width:32%;
     font-size: 22px;
     text-align:center;
     text-decoration: none;
@@ -61,8 +66,8 @@ a{
     height: 100px;
 }
 .use, .shop, .search{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 .prod{
@@ -107,18 +112,27 @@ h1{
   font-size: 34px;
 }
   
-/* choc{
+choc{
 width:5%;
 height:5%;
 }
-.chocho, #para{
+ #para{
   display:inline-block;
-}
-#para{
+} 
+
+/* .chocho{
+    text-align: right;
+    padding-top: 20px;
+} */
+
+ #para{
   width:44%;
+  padding-left: 2%;
+  font-size: 20px;
+  
 
 
-}*/
+}
 
 
 /***3 image***/
@@ -207,3 +221,34 @@ height:5%;
 
 
 }
+
+@media screen and (max-width:375px) {
+   #life, #menupic{
+       width: 100%;
+   } 
+   #logo{
+       width: 5%;
+       position: absolute;
+       top:10%;
+
+   }
+}
+
+
+@media only screen and (max-width: 650px) {
+	#logo {
+		background: url(images/lolo.jpg) center no-repeat;
+		height: 100px; /* define height of image */
+    } 
+    
+/*     
+@media only screen and (max-width: 650px) {
+	.menupic {
+        <img src="images/icons8-user-filled-100.png" class="use">right no-repeat;
+        <img src="images/icons8-shopping-cart-48.png"class="shop">right no-repeat;
+        <img src="images/icons8-search-100.png"class="search">right no-repeat;
+       
+		width: 30%;
+    
+    }
+     */
