@@ -60,7 +60,7 @@ body{
 .acc, .recet, .shop, .avis{
   display:inline-block;
   border:1px solid black;
-  width:24%;
+  width:23%;
   text-align:center;
   text-decoration: none;
   color: black;
@@ -103,9 +103,9 @@ h1{
 }
 
 .coeur{
-  position: absolute;
-  left:49%;
-  top:82%;
+  position:absolute;
+  left:51%;
+  top:86%;
 }
 
 
@@ -113,11 +113,20 @@ h1{
 /*............................footer.............................*/
 .footer{
   width:100%;
-  padding-left: 0%
+  padding-left: 0%;
+  position:relative;
+  top:0%;
+  left:0%;
 }
 .prof{
   padding-left:15%;
   width:68%;
+}
+.icons
+{
+  position:absolute;
+  top:40%;
+  left:70%;
 }
 /*......................form...............................*/
 .formulaire{
@@ -202,7 +211,7 @@ font-family:  Mission Script;
  font-size: 27px;
 }
 
-@media screen and (max-width: 761px){
+@media screen and (max-width: 375px){
   .acc, .recet, .shop, .avis{
     width:100%;
   }
@@ -222,15 +231,12 @@ font-family:  Mission Script;
 #para{
   font-size: 100%
 }
-.jar{
+.jar
+{
   position:absolute;
   top:78%;
 
 }
-}
-/*@media screen and (min-width:761px)and(max-width:1024px){
-  .acc, .recet, .shop, .avis{
-    width:50%;
-  }
-}
-*/
+
+
+
