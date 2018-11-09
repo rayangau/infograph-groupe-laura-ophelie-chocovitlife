@@ -60,14 +60,17 @@ body{
 .acc, .recet, .shop, .avis{
   display:inline-block;
   border:1px solid black;
-  width:23%;
+  width:22%;
   text-align:center;
   text-decoration: none;
   color: black;
+  font-size: 131%;
 }
 .choc{
-  width:194%;
+  width:173%;
   position:relative;
+  top:10%;
+  left:10%;
 
 
 }
@@ -94,13 +97,14 @@ body{
 
 .coeur{
   position: absolute;
-  left:52%;
+  left:54%;
   top:65%;
 }
 
 h1{
+  position:relative:
+  top:0%;
   padding-left: 10%;
-
   font-size: 31px;
 }
 
@@ -115,10 +119,10 @@ h1{
 }
 /*......................form...............................*/
 .jar{
-  width:29%;
+  width:58%;
   position:absolute;
-  left:23%;
-  top:148%;
+  left:-24%;
+  top:67%;
   z-index: 1000
 }
 
@@ -148,10 +152,13 @@ padding:5% 2% 5% 7%;
 cursor:pointer;
  border-radius: 8%;
  margin-left: 15%;
+ font-family:  Mission Script;
+ font-size: 27px;
 }
 
 
 .nom{
+  font-family:  Mission Script;
  width:59%;
  padding:5% 2% 5% 7%;
  background-color: #BDBDBD;
@@ -159,31 +166,34 @@ cursor:pointer;
   border-radius: 8%;
 cursor:pointer;
 margin-left: 15%;
-
+ font-size: 27px;
 }
 
 
 .text{
- width:58%;
- padding:5% 2% 5% 7%;
+ width:60%;
+ padding:4% 2% 16% 7%;
  height:10%;
  background-color: #BDBDBD;
   color:white;
   cursor:pointer;
  border-radius: 8%;
  margin-left: 15%;
+ font-family:  Mission Script;
+ font-size: 27px;
 }
 
 
 .but{
  border-radius: 12%;
- padding:1% 2% 1% 2%;
+ padding:1% 4% 1% 2%;
  background-color: black;
   color:white;
 cursor:pointer;
-width:19%;
-margin-left: 63%;
-
+width:30%;
+margin-left: 55%;
+font-family:  Mission Script;
+ font-size: 27px;
 }
 
 @media screen and (max-width: 375px){
@@ -208,7 +218,12 @@ margin-left: 63%;
 }
 .jar{
   position:absolute;
-  top:189%;
+  top:78%;
 
 }
+}
+@media screen and (min-width:376px)and(max-width:1024px){
+  .acc, .recet, .shop, .avis{
+    width:100%;
+  }
 }
