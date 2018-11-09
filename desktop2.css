@@ -1,49 +1,49 @@
 body.html{
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 
 
 }
 #{
-    text-decoration-style: none;
+  text-decoration-style: none;
 }
 
 a.hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 body{
-    padding: 0;
-    margin: 0;
-    background-color: #FFFFFF;
-    width:100%;
-    font-family: Mission Script;
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+  width:100%;
+  font-family: Mission Script;
 }
 
 #menu >p{
-    width:100%;
-    font-size: 22px;
-     display:inline-block;
+  width:100%;
+  font-size: 22px;
+  display:inline-block;
 
-  }
-  #menu{
-      padding-left: 1%;
-  }
+}
+#menu{
+  padding-left: 1%;
+}
 
 a{
-    display:inline-block;
-    border:1px solid black;
-    width:24%;
-    font-size: 22px;
-    text-align:center;
-    text-decoration: none;
-    color: black;
-    line-height: 50px;
-    height: 50px;
+  display:inline-block;
+  border:1px solid black;
+  width:24%;
+  font-size: 22px;
+  text-align:center;
+  text-decoration: none;
+  color: black;
+  line-height: 50px;
+  height: 50px;
 }
 
 .nav{
-    width:100%;
+  width:100%;
 }
 
 #logo{
@@ -57,33 +57,33 @@ a{
 }
 
 .A {
-    display:inline-block;
-    width:32%;
-    font-size: 22px;
-    text-align:center;
-    text-decoration: none;
-    color: black;
-    height: 100px;
+  display:inline-block;
+  width:32%;
+  font-size: 22px;
+  text-align:center;
+  text-decoration: none;
+  color: black;
+  height: 100px;
 }
 .use, .shop, .search{
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .prod{
 
 
-    padding-top: 4%;
-    display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-  }
+  padding-top: 4%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 /* .life{
   width:26%;
    padding-bottom: 0%;
-} */
+   } */
 
 /* .log{
  align-content: center;
@@ -91,7 +91,7 @@ a{
   width:9%;
   top:0%;
 
-}*/
+  }*/
 
 
 /* .rect{
@@ -100,156 +100,156 @@ a{
    position:absolute;
    left:71%;
 
-} */
+   } */
 
 /* .use, .shopp, .search{
   width:4%;
-} */
+  } */
 
-h1{
-  padding-top: 2%;
-  text-align:left;
-  font-size: 34px;
-}
+  h1{
+    padding-top: 2%;
+    text-align:left;
+    font-size: 34px;
+  }
 
   /*   */
- #para{
-  display:inline-block;
-}
+  #para{
+    display:inline-block;
+  }
 
 /* .chocho{
     text-align: right;
     padding-top: 20px;
-} */
+    } */
 
- #para{
-  width:44%;
-  padding-left: 2%;
-  font-size: 18px;
-
-
-
-}
-
-
-/***3 image***/
+    #para{
+      width:44%;
+      padding-left: 2%;
+      font-size: 18px;
 
 
 
-.Chocolife{
-    width:100%;
-}
+    }
 
-.choco{
-    width:45%;
-    display:inline-block;
 
-}
-
-#chocogauche {
-    font-size: 34px;
-    text-align: left;
-    padding-left: 10%;
-    width:50%;
-}
-
-#hearts
-{
-    float: none;
-}
-/******3 images down the main pics********/
-#manyimg
-{
-    width:45%;
-    align-content: right;
-    float: right;
-}
-.lactose, .gluten, .food{
-    width:10%;
-    position:relative;
-    right: 0%;
-    /* left:50%; */
-  }
-  /****** end of 3 images down the main pics********/
-
-.profil{
-  position: absolute;
-  top:750px;
-  /* text-align: right-bottom; */
-  right: 0px;
-  /* bottom: 550px; */
-}
-
-.form{
-  background-image: url("profile.png")
-}
+    /***3 image***/
 
 
 
-/*......................form...............................*/
-.jar{
-    width:57%;
-    position:absolute;
-    left:-1%;
-    bottom: -19%;
-    z-index: 1000
-  }
+    .Chocolife{
+      width:100%;
+    }
+
+    .choco{
+      width:45%;
+      display:inline-block;
+
+    }
+
+    #chocogauche {
+      font-size: 34px;
+      text-align: left;
+      padding-left: 10%;
+      width:50%;
+    }
+
+    #hearts
+    {
+      float: none;
+    }
+    /******3 images down the main pics********/
+    #manyimg
+    {
+      width:45%;
+      align-content: right;
+      float: right;
+    }
+    .lactose, .gluten, .food{
+      width:10%;
+      position:relative;
+      right: 0%;
+      /* left:50%; */
+    }
+    /****** end of 3 images down the main pics********/
+
+    .profil{
+      position: absolute;
+      top:950px;
+      /* text-align: right-bottom; */
+      right: 0px;
+      /* bottom: 550px; */
+    }
+
+    .form{
+      background-image: url("profile.png")
+    }
 
 
-  .formulaire{
 
-    position:relative;
-    left:2%;
-    width:30%;
-    background-color:#585858;
-    padding:10px;
-    border-radius: 5%;
-   }
+    /*......................form...............................*/
+    .jar{
+      width:57%;
+      position:absolute;
+      left:-1%;
+      bottom: -19%;
+      z-index: 1000
+    }
 
-  placeholder{
-   color:black;
-   font-weight:bold
+
+    .formulaire{
+
+      position:relative;
+      left:2%;
+      width:30%;
+      background-color:#585858;
+      padding:10px;
+      border-radius: 5%;
+    }
+
+    placeholder{
+     color:black;
+     font-weight:bold
    }
 
    #paddingtop{
-       padding-top: 1%;
+     padding-top: 1%;
    }
-  .pre{
+   .pre{
      width:59%;
-    padding:5% 2% 5% 7%;
-    background-color:#BDBDBD;
-    color:white;
-    cursor:pointer;
-    border-radius: 6%;
-    margin-left: 15%;
-  }
+     padding:5% 2% 5% 7%;
+     background-color:#BDBDBD;
+     color:white;
+     cursor:pointer;
+     border-radius: 6%;
+     margin-left: 15%;
+   }
 
 
-  .nom{
-   width:59%;
-   padding:5% 2% 5% 7%;
-   background-color: #BDBDBD;
-  color:white;
-  border-radius: 8%;
-  cursor:pointer;
-  margin-left: 15%;
+   .nom{
+     width:59%;
+     padding:5% 2% 5% 7%;
+     background-color: #BDBDBD;
+     color:white;
+     border-radius: 8%;
+     cursor:pointer;
+     margin-left: 15%;
 
-  }
-
-
-  .text{
-   width:58%;
-   padding:5% 2% 5% 7%;
-   height:10%;
-   background-color: #BDBDBD;
-  color:white;
-  cursor:pointer;
-  border-radius: 8%;
-  margin-left: 15%;
-  }
+   }
 
 
-  .but{
+   .text{
+     width:58%;
+     padding:5% 2% 5% 7%;
+     height:10%;
+     background-color: #BDBDBD;
+     color:white;
+     cursor:pointer;
+     border-radius: 8%;
+     margin-left: 15%;
+   }
+
+
+   .but{
     border-radius: 12%;
     padding:1% 2% 1% 2%;
     background-color: black ;
@@ -273,91 +273,81 @@ h1{
     .formulaire{
       width:60%;
     }
-  .pre, .nom, .text, .but{
-    width:60%;
-    font-size: 20%
+    .pre, .nom, .text, .but{
+      width:60%;
+      font-size: 20%
+    }
+    #para{
+      font-size:24px;
+    }
+    .jar{
+      position:absolute;
+      top:189%;
+
+    }
   }
-  #para{
-    font-size:24px;
+
+  /****footer******/
+
+  .footerp {
+    display:flex;
+    /* flex-wrap: nowrap; */
+    align-items: stretch;
+
+    width: 100%;
+    background-color:#231F20;
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: right;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -113%;
+    padding-top: -1%;
+    height: -1%;
+
+
+
   }
-  .jar{
-    position:absolute;
-    top:189%;
+
+  .footerp > div {
+    width: 20%;
+    padding-top: 5%;
+    text-align: left;
+    font-size: 12px;
+    padding-bottom: -9%;
 
   }
+
+  .main{
+    width: 30%;
+    text-align:left;
+    color: #fff;
+    font-size: 28px;
+    line-height: 20px;
+
+
+
   }
 
-/****footer******/
-
-.footerp {
-  display:flex;
-  /* flex-wrap: nowrap; */
-  align-items: stretch;
-
-  width: 100%;
-  background-color:#231F20;
-  color: #FFFFFF;
-  font-size: 24px;
-  text-align: right;
- justify-content: space-around;
- position: absolute;
- bottom: -113%;
- padding-top: -1%;
-  height: -1%;
-
-
-
-}
-
-.footerp > div {
-  width: 20%;
- padding-top: 5%;
-  text-align: left;
-  font-size: 12px;
-  padding-bottom: -9%;
-
-}
-
-.main{
-  width: 30%;
-  text-align:left;
-  color: #fff;
-  font-size: 28px;
-  line-height: 20px;
-
-
-
-}
-
-@media screen and (max-width:375px) {
+  @media screen and (max-width:375px) {
    #life, #menupic{
-       width: 100%;
+     width: 100%;
    }
    #logo{
-       width: 5%;
-       position: absolute;
-       top:10%;
+     width: 5%;
+     position: absolute;
+     top:10%;
 
    }
+ }
+
+
+ @media only screen and (max-width: 650px) {
+   #logo {
+    background: url(images/lolo.jpg) center no-repeat;
+    height: 100px; /* define height of image */
+  }
+
 }
 
 
-@media only screen and (max-width: 650px) {
-	#logo {
-		background: url(images/lolo.jpg) center no-repeat;
-		height: 100px; /* define height of image */
-    }
-
-/*
-@media only screen and (max-width: 650px) {
-	.menupic {
-        <img src="images/icons8-user-filled-100.png" class="use">right no-repeat;
-        <img src="images/icons8-shopping-cart-48.png"class="shop">right no-repeat;
-        <img src="images/icons8-search-100.png"class="search">right no-repeat;
-
-		width: 30%;
-
-    }
-     */
-
- .
