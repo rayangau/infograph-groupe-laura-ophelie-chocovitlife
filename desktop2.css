@@ -24,12 +24,12 @@ body{
     width:100%;
     font-size: 22px;
      display:inline-block;
-  
+
   }
   #menu{
       padding-left: 1%;
   }
-  
+
 a{
     display:inline-block;
     border:1px solid black;
@@ -44,7 +44,7 @@ a{
 
 .nav{
     width:100%;
-}  
+}
 
 #logo{
 
@@ -57,7 +57,7 @@ a{
 }
 
 .A {
-    display:inline-block; 
+    display:inline-block;
     width:32%;
     font-size: 22px;
     text-align:center;
@@ -71,7 +71,7 @@ a{
 }
 
 .prod{
-  
+
 
     padding-top: 4%;
     display: block;
@@ -99,7 +99,7 @@ a{
    height:2%;
    position:absolute;
    left:71%;
- 
+
 } */
 
 /* .use, .shopp, .search{
@@ -111,14 +111,11 @@ h1{
   text-align:left;
   font-size: 34px;
 }
-  
-choc{
-width:5%;
-height:5%;
-}
+
+  /*   */
  #para{
   display:inline-block;
-} 
+}
 
 /* .chocho{
     text-align: right;
@@ -128,8 +125,8 @@ height:5%;
  #para{
   width:44%;
   padding-left: 2%;
-  font-size: 20px;
-  
+  font-size: 18px;
+
 
 
 }
@@ -137,7 +134,7 @@ height:5%;
 
 /***3 image***/
 
- 
+
 
 .Chocolife{
     width:100%;
@@ -146,7 +143,7 @@ height:5%;
 .choco{
     width:45%;
     display:inline-block;
- 
+
 }
 
 #chocogauche {
@@ -158,7 +155,7 @@ height:5%;
 
 #hearts
 {
-    float: none; 
+    float: none;
 }
 /******3 images down the main pics********/
 #manyimg
@@ -177,7 +174,8 @@ height:5%;
 
 .profil{
   position: absolute;
-  top:700px;  
+  top:750px;
+  /* text-align: right-bottom; */
   right: 0px;
   /* bottom: 550px; */
 }
@@ -185,31 +183,140 @@ height:5%;
 .form{
   background-image: url("profile.png")
 }
+
+
+
+/*......................form...............................*/
+.jar{
+    width:57%;
+    position:absolute;
+    left:-1%;
+    bottom: -19%;
+    z-index: 1000
+  }
+
+
+  .formulaire{
+
+    position:relative;
+    left:2%;
+    width:30%;
+    background-color:#585858;
+    padding:10px;
+    border-radius: 5%;
+   }
+
+  placeholder{
+   color:black;
+   font-weight:bold
+   }
+
+   #paddingtop{
+       padding-top: 1%;
+   }
+  .pre{
+     width:59%;
+    padding:5% 2% 5% 7%;
+    background-color:#BDBDBD;
+    color:white;
+    cursor:pointer;
+    border-radius: 6%;
+    margin-left: 15%;
+  }
+
+
+  .nom{
+   width:59%;
+   padding:5% 2% 5% 7%;
+   background-color: #BDBDBD;
+  color:white;
+  border-radius: 8%;
+  cursor:pointer;
+  margin-left: 15%;
+
+  }
+
+
+  .text{
+   width:58%;
+   padding:5% 2% 5% 7%;
+   height:10%;
+   background-color: #BDBDBD;
+  color:white;
+  cursor:pointer;
+  border-radius: 8%;
+  margin-left: 15%;
+  }
+
+
+  .but{
+    border-radius: 12%;
+    padding:1% 2% 1% 2%;
+    background-color: black ;
+    color:white;
+    cursor:pointer;
+    width:19%;
+    margin-left: 63%;
+
+  }
+
+  @media screen and (max-width: 375px){
+    .acc, .recet, .shop, .avis{
+      width:100%;
+    }
+    footer{
+      display:none;
+    }
+    .coeur, .choc{
+      display:none;
+    }
+    .formulaire{
+      width:60%;
+    }
+  .pre, .nom, .text, .but{
+    width:60%;
+    font-size: 20%
+  }
+  #para{
+    font-size:24px;
+  }
+  .jar{
+    position:absolute;
+    top:189%;
+
+  }
+  }
+
 /****footer******/
 
 .footerp {
   display:flex;
   /* flex-wrap: nowrap; */
   align-items: stretch;
-  bottom: 0;
+
   width: 100%;
   background-color:#231F20;
   color: #FFFFFF;
   font-size: 24px;
   text-align: right;
  justify-content: space-around;
- position: fixed;
- height: 14%;
+ position: absolute;
+ bottom: -113%;
+ padding-top: -1%;
+  height: -1%;
+
+
 
 }
 
 .footerp > div {
   width: 20%;
- 
+ padding-top: 5%;
   text-align: left;
   font-size: 12px;
+  padding-bottom: -9%;
 
-} 
+}
 
 .main{
   width: 30%;
@@ -225,7 +332,7 @@ height:5%;
 @media screen and (max-width:375px) {
    #life, #menupic{
        width: 100%;
-   } 
+   }
    #logo{
        width: 5%;
        position: absolute;
@@ -239,16 +346,18 @@ height:5%;
 	#logo {
 		background: url(images/lolo.jpg) center no-repeat;
 		height: 100px; /* define height of image */
-    } 
-    
-/*     
+    }
+
+/*
 @media only screen and (max-width: 650px) {
 	.menupic {
         <img src="images/icons8-user-filled-100.png" class="use">right no-repeat;
         <img src="images/icons8-shopping-cart-48.png"class="shop">right no-repeat;
         <img src="images/icons8-search-100.png"class="search">right no-repeat;
-       
+
 		width: 30%;
-    
+
     }
      */
+
+ .
