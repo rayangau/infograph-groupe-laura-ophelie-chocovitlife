@@ -4,17 +4,17 @@ body{
   font-family: Mission Script;
 }
 .cont{
-  width:50%;
+  width:40%;
   margin-left:30%;
   margin-right: 30%;
   border:1px solid black;
- /* padding-top: 20%*/
+  /* padding-top: 20%*/
 }
 
 
 #menu >p{
  border:1px solid black;
-  display:inline-block;
+ display:inline-block;
 }
 .nav>div{
   display:inline-block;
@@ -22,14 +22,14 @@ body{
 }
 .life{
   width:26%;
-   padding-bottom: 4%;
+  padding-bottom: 4%;
 }
 
 .log{
   position:absolute;
-  left:48%;
+  left:45%;
   width:9%;
-  top:0%;
+  top:1%;
 
 }
 .use, .shopp, .search{
@@ -40,10 +40,10 @@ body{
 }
 .rect{
   width:5%;
-   height:2%;
-   position:absolute;
-   left:71%;
-  top:2%;
+  height:2%;
+  position:absolute;
+  left:63%;
+  top:1%;
 }
 
 .use, .shopp, .search{
@@ -55,7 +55,7 @@ body{
   color: black;
   font-size: 18px;
   text-decoration: none;
-   padding-top:5%;
+  padding-top:5%;
 }
 .acc, .recet, .shop, .avis{
   display:inline-block;
@@ -63,11 +63,11 @@ body{
   width:23%;
   text-align:center;
   text-decoration: none;
- color: black;
+  color: black;
 }
 .choc{
-width:195%;
-position:relative;
+  width:194%;
+  position:relative;
 
 
 }
@@ -76,8 +76,8 @@ position:relative;
 }
 #para{
   width:52%;
-  font-size: 189%;
-  padding-left: 10%;
+  font-size: 142%;
+  padding-left: 15%;
 
 }
 .prod{
@@ -92,32 +92,100 @@ position:relative;
   left:34%;
 }
 
- .coeur{
+.coeur{
   position: absolute;
-  left:50%;
-top:64%;
+  left:52%;
+  top:65%;
 }
 
 h1{
   padding-left: 10%;
 
-font-size: 31px;
+  font-size: 31px;
 }
+
+/*............................footer.............................*/
 .footer{
-  width:50%;
-  padding-left: 30%
+  width:100%;
+  padding-left: 0%
 }
 .prof{
   padding-left:15%;
   width:68%;
 }
-form{
-  width:15%;
-  height:15%;
+/*......................form...............................*/
+.jar{
+  width:29%;
+  position:absolute;
+  left:23%;
+  top:148%;
+  z-index: 1000
+}
+
+
+.formulaire{
+
   position:relative;
-  left:10%;
+  left:9%;
+width:73%;
+ background-color:#585858;
+ padding:20px;
+border-radius: 5%;
+ }
+
+
+placeholder {
+ color:black;
+ font-weight:bold
+ }
+
+
+.pre{
+   width:59%;
+padding:5% 2% 5% 7%;
+  background-color:#BDBDBD;
+  color:white;
+cursor:pointer;
+ border-radius: 8%;
+ margin-left: 15%;
+}
+
+
+.nom{
+ width:59%;
+ padding:5% 2% 5% 7%;
+ background-color: #BDBDBD;
+  color:white;
+  border-radius: 8%;
+cursor:pointer;
+margin-left: 15%;
 
 }
+
+
+.text{
+ width:58%;
+ padding:5% 2% 5% 7%;
+ height:10%;
+ background-color: #BDBDBD;
+  color:white;
+  cursor:pointer;
+ border-radius: 8%;
+ margin-left: 15%;
+}
+
+
+.but{
+ border-radius: 12%;
+ padding:1% 2% 1% 2%;
+ background-color: black;
+  color:white;
+cursor:pointer;
+width:19%;
+margin-left: 63%;
+
+}
+
 @media screen and (max-width: 375px){
   .acc, .recet, .shop, .avis{
     width:100%;
@@ -128,4 +196,19 @@ form{
   .coeur, .choc{
     display:none;
   }
+  .formulaire{
+    width:60%;
+  }
+.pre, .nom, .text, .but{
+  width:60%;
+  font-size: 20%
+}
+#para{
+  font-size: 100%
+}
+.jar{
+  position:absolute;
+  top:189%;
+
+}
 }
