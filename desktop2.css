@@ -1,0 +1,209 @@
+body.html{
+    padding: 0;
+    margin: 0;
+
+
+}
+#{
+    text-decoration-style: none;
+}
+
+a.hover {
+    text-decoration: none;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+    width:100%;
+    font-family: Mission Script;
+}
+
+#menu >p{
+    width:100%;
+    font-size: 22px;
+     display:inline-block;
+  
+  }
+  
+a{
+    display:inline-block;
+    border:1px solid black;
+    width:24%;
+    font-size: 22px;
+    text-align:center;
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+    height: 50px;
+}
+
+.nav{
+    width:100%;
+}  
+
+
+
+
+.cont{
+  width:100%;
+
+}
+
+.A {
+    display:inline-block; 
+    width:33%;
+    font-size: 22px;
+    text-align:center;
+    text-decoration: none;
+    color: black;
+    height: 100px;
+}
+.use, .shop, .search{
+    width: 50px;
+    height: 50px;
+}
+
+.prod{
+  
+
+    padding-top: 4%;
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+
+/* .life{
+  width:26%;
+   padding-bottom: 0%;
+} */
+
+/* .log{
+ align-content: center;
+  left:48%;
+  width:9%;
+  top:0%;
+
+}*/
+
+
+/* .rect{
+  width:5%;
+   height:2%;
+   position:absolute;
+   left:71%;
+ 
+} */
+
+/* .use, .shopp, .search{
+  width:4%;
+} */
+
+h1{
+  padding-top: 2%;
+  text-align:left;
+  font-size: 34px;
+}
+  
+/* choc{
+width:5%;
+height:5%;
+}
+.chocho, #para{
+  display:inline-block;
+}
+#para{
+  width:44%;
+
+
+}*/
+
+
+/***3 image***/
+
+ 
+
+.Chocolife{
+    width:100%;
+}
+
+.choco{
+    width:45%;
+    display:inline-block;
+ 
+}
+
+#chocogauche {
+    font-size: 34px;
+    text-align: left;
+    padding-left: 10%;
+    width:50%;
+}
+
+#hearts
+{
+    float: none; 
+}
+/******3 images down the main pics********/
+#manyimg
+{
+    width:45%;
+    align-content: right;
+    float: right;
+}
+.lactose, .gluten, .food{
+    width:10%;
+    position:relative;
+    right: 0%;
+    /* left:50%; */
+  }
+  /****** end of 3 images down the main pics********/
+
+.profil{
+  position: absolute;
+  top:700px;  
+  right: 0px;
+  /* bottom: 550px; */
+}
+
+.form{
+  background-image: url("profile.png")
+}
+/****footer******/
+
+.footerp {
+  display:flex;
+  /* flex-wrap: nowrap; */
+  align-items: stretch;
+  bottom: 0;
+  width: 100%;
+  background-color:#231F20;
+  color: #FFFFFF;
+  font-size: 24px;
+  text-align: right;
+ justify-content: space-around;
+ position: fixed;
+ height: 14%;
+
+}
+
+.footerp > div {
+  width: 20%;
+ 
+  text-align: left;
+  font-size: 12px;
+
+} 
+
+.main{
+  width: 30%;
+  text-align:left;
+  color: #fff;
+  font-size: 28px;
+  line-height: 20px;
+
+
+
+}
