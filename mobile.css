@@ -2,13 +2,15 @@
 body{
   width:100%;
   font-family: Mission Script;
+
 }
 .cont{
+  padding-top: 2%;
   width:40%;
   margin-left:30%;
   margin-right: 30%;
   border:1px solid black;
-  /* padding-top: 20%*/
+
 }
 
 
@@ -30,7 +32,7 @@ body{
   left:45%;
   width:9%;
   top:1%;
-
+ padding-top: 2%
 }
 .use, .shopp, .search{
   position:relative;
@@ -39,11 +41,12 @@ body{
 
 }
 .rect{
-  width:5%;
-  height:2%;
+  width:6%;
+  height:0%;
   position:absolute;
   left:63%;
-  top:1%;
+  top:5%;
+   padding-top: 1%;
 }
 
 .use, .shopp, .search{
@@ -237,6 +240,10 @@ font-family:  Mission Script;
   top:78%;
 
 }
+.formulaire{
 
+      position:relative;
+      left:4%;
+    }
 
-
+}
